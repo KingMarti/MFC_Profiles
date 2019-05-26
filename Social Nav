@@ -1,0 +1,45 @@
+<style>
+/** Copy the code until </style> into your customise profile css editor **/
+/** Social Banner **/
+div#Social_banner_container {
+  position:fixed;
+  background-color:#00FFFF;
+  height:40px;
+  width:33%;
+  text-align:left;
+  top:63px;
+  left:67%;
+  z-index:10;
+  border-bottom-color:#black;
+  border-bottom-style:solid;
+  border-bottom-width:3px;
+  border-left-color:#black;
+  border-left-style:solid;
+  border-left-width:3px;
+  border-radius:0 0 0 25px;
+}
+
+#Social_Nav {
+  width:100%;
+  display:inline-block;
+}
+
+#Social_Nav li {
+  list-style:none;
+  display:inline-block;
+}
+
+img.soical_icon {
+  width:25px;
+}
+</style>
+<!-- Social Media Link Banner -->
+<div id="Social_banner_container">
+    <ul id="Social_Nav">
+      <li class="nav-item"><a href=" ENTER YOUR Twitter link here">Twitter</a></li>
+      <li class="nav-item"><a href="Enter Link TO Insta">Instagram</a></li>
+      <li class="nav-item"><a href="ENTER LINK TO FANCENTRO">Snap</a></li>
+      <li class="nav-item"><a href="ENTER LINK TO OnlyFans / JustFor Fans">Fanclub</a></li>
+      <li class="nav-item"><a href="ENTER LINK TO PornHub">Pornhub</a></li>
+    </ul>
+  </div>
