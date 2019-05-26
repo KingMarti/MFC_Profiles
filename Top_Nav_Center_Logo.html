@@ -1,0 +1,58 @@
+<DOCTYPE html>
+  <html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+    #nav_Container{
+      background-color:#ccc;
+      position: fixed;
+        height: 60px;
+        width: 100%;
+        text-align: center;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        border-bottom-color:#black;
+        border-bottom-style:solid;
+        border-bottom-width:3px;
+    }
+    .nav_left, .nav_right{
+      display:inline-block;
+      width:33%;
+    }
+    .nav_left li{
+      list-style: none;
+      display:inline-block;
+      margin:3%;
+    }
+    .nav_right li{
+      list-style: none;
+      display: inline-block;
+      margin:3%;
+    }
+    .nav-item{
+      margin:1%;
+    }
+    #logo_img{
+      align-items: center;
+      width:33%
+    }
+    </style>
+  </head>
+  <body>
+    <div id="nav_Container">
+        <ul class="nav_left">
+          <li class="nav-item">MFC Share</li>
+          <li class="nav-item">Tip Menu</li>
+          <li class="nav-item">Offline Tips</li>
+        </ul>
+        <a  id="logo_img"href="#"><img src="#" alt="logo"/></a>
+        <ul class="nav_left">
+          <li class="nav-item">Events</li>
+          <li class="nav-item">Clubs</li>
+          <li class="nav-item">Room</li>
+        </ul>
+  </div>
+
+  </body>
+  </html>
