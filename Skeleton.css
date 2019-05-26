@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+/* This Css clears all default styling and information from your profile */
+div#profile_about_me div#username_container,div#gender_container,div#body_type_container,div#ethnicity_container,div#hair_container,div#eyes_container,div#weight_container,div#height_container,div#age_container,div#country_container,div#sexual_preference_container,div#smoke_container,div#drink_container,div#drugs_container,div#school_container,div#favorite_food_container,#marital_status_container,#occupation_container,#about_me_label {
+  display:none;
+}
+div#profile_main_about_holder{
+  display:none;
+}
+#about_me_label,#member_type_value,#blurb_container,#avatar_holder,div#status_label,div#unix_last_login_container,div#unix_last_updated_container,div#tags_container,div#profile_main_photo, {
+  display:none;
+}
+/** profile_comments clears the profile commments from the page **/
+div#profile_comments {
+  display:none;
+}
+/** clears the footer bar **/
+div#footer_bar {
+  display:none;
+}
+/** Profile header clears the avatar section at the top of the page **/
+div#profile_header{
+  display:none;
+}
+/** Header Bar clears the MFC links at the top of the page **/
+div#header_bar{
+  display:none;
+}
+/** profile_photo_galleries clears the photo galeries on the page **/
+  /** Using this you will no longer be able to sell picture sets from your profile **/
+div#profile_photo_galleries{
+  display:none;
+}
+/** /Mfc Classes **/
