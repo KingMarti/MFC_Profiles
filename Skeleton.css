@@ -23,13 +23,21 @@
  }
 
  /** Hides about info **/
- .heading,div#username_container,div#gender_container,div#body_type_container,div#ethnicity_container,div#hair_container,div#eyes_container,div#age_container,div#country_container,div#sexual_preference_container,div#smoke_container,div#drink_container,div#drugs_container,div#marital_status_container,div#occupation_container,div#school_container,span#about_me_label, span#cam_score_label,div#cam_score_container,div#weight_container,div#height_constainer,div#ethnicity_container,div#favorite_food_container,div#pets_container{
+ .heading,div#username_container,div#gender_container,div#body_type_container,div#ethnicity_container,
+div#hair_container,div#eyes_container,div#age_container,div#country_container,
+div#sexual_preference_container,div#smoke_container,
+div#drink_container,div#drugs_container,div#marital_status_container,div#occupation_container,div#school_container,
+span#about_me_label, span#cam_score_label,div#cam_score_container,div#weight_container,div#height_constainer,
+div#ethnicity_container,div#favorite_food_container,div#pets_container{
    display:none;
  }
-div#profile_interests_conetent,div#profile_schedule,span#cam_score_label,div#profile_main_about_holder,span#cam_score_label,span#cam_score_value,span#weight_label,span#weight#value,span#height_label,span#height_value,span#tags_label,span#tags_value{
+div#profile_interests_conetent,div#profile_schedule,span#cam_score_label,
+span#cam_score_label,span#cam_score_value,span#weight_label,span#weight#value,span#height_label,span#height_value,
+span#tags_label,span#tags_value{
   display:none;
 }
-div#schedule_day_1_container,div#schedule_day_2_container,div#schedule_day_3_container,div#schedule_day_4_container,div#schedule_day_5_container,div#schedule_day_6_container,div#schedule_day_7_container{
+div#schedule_day_1_container,div#schedule_day_2_container,div#schedule_day_3_container,div#schedule_day_4_container,
+div#schedule_day_5_container,div#schedule_day_6_container,div#schedule_day_7_container{
   display:none;
 }
 
